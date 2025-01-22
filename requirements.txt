@@ -1,0 +1,8 @@
+java -version
+Eclipse
+VS Code (with Java extension)
+
+Built-in Java libraries:
+java.io (File handling)
+java.util (Scanner for input)
+java.security (Hashing with SHA-256)
