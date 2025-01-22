@@ -37,6 +37,29 @@ Stores encrypted passwords in the format accountName:encryptedPassword.
 1. Clone or download the project files.
 2. Open the project in your IDE.
 3. Compile the Java files:
- ```bash
-javac AESUtil.java PasswordManager.java
-```
+   ```bash
+   javac AESUtil.java PasswordManager.java
+   ``` 
+4. Run the application:
+   ```bash
+   java PasswordManager
+   ```
+### Usage
+- **Launch the application:**
+The program starts with a menu offering the following options:
+
+Add a new password
+
+Retrieve a password
+
+Delete a password
+
+Show all accounts
+
+Exit
+
+Follow prompts to add, retrieve, delete, or view accounts.
+Passwords are stored encrypted in passwords.txt and decrypted only when retrieve
+
+### Example
+#### Adding a Password
