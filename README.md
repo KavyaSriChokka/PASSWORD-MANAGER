@@ -2,13 +2,13 @@
 ### Overview
    The Password Manager is a Java-based application that securely stores and retrieves passwords for various accounts. It uses AES encryption to ensure that passwords are stored securely and are only decrypted when retrieved.
 ### Features
-1.Add Password:
+-**1.Add Password**:
 Encrypts and stores passwords securely.
-2.Retrieve Password:
+-**2.Retrieve Password**:
 Decrypts and displays stored passwords when requested.
-3.Delete Password:
+-**3.Delete Password**:
 Removes an account and its password from storage.
-4.Show All Accounts:
+-**4.Show All Accounts**:
 Displays a list of all stored account names without revealing passwords.
-5.Secure Encryption:
+-**5.Secure Encryption**:
 Uses AES (Advanced Encryption Standard) for secure password management.
