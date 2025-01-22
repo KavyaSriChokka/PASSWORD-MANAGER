@@ -90,11 +90,16 @@ Passwords are saved in a local file (passwords.txt) for simplicity and portabili
 
 ### Limitations
 1.No GUI interface; it's a command-line tool.
+
 2.The encryption key is hardcoded and should be securely managed.
+
 3.No user authentication to access the application.
 
 ### Future Enhancements
 1.Add a graphical user interface (GUI) for ease of use.
+
 2.Implement user authentication for added security.
+
 3.Use a secure database instead of a text file for password storage.
+
 4.Add features for password generation and validation.
