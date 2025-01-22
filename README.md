@@ -68,4 +68,33 @@ Passwords are stored encrypted in passwords.txt and decrypted only when retrieve
    Enter password: mysecurepassword
    Password saved successfully!
    ```
+#### Stored in passwords.txt
+   ```bash
+   google:uFVZL1ExUlRDdzYzTmJ0OA==
+   ```
+#### Retrieving a Password
+   ```bash
+   Enter account name to retrieve password: google
+   Password for google: mysecurepassword
+   ```
+#### Deleting a Password
+   ```bash
+   Enter account name to delete: google
+   Account deleted successfully!
+   ```
+### Security Features
+#### AES Encryption:
+Passwords are encrypted before storage and decrypted only when needed.
+#### File-Based Storage:
+Passwords are saved in a local file (passwords.txt) for simplicity and portability.
 
+### Limitations
+1.No GUI interface; it's a command-line tool.
+2.The encryption key is hardcoded and should be securely managed.
+3.No user authentication to access the application.
+
+###Future Enhancements
+1.Add a graphical user interface (GUI) for ease of use.
+2.Implement user authentication for added security.
+3.Use a secure database instead of a text file for password storage.
+4.Add features for password generation and validation.
