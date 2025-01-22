@@ -93,7 +93,7 @@ Passwords are saved in a local file (passwords.txt) for simplicity and portabili
 2.The encryption key is hardcoded and should be securely managed.
 3.No user authentication to access the application.
 
-###Future Enhancements
+### Future Enhancements
 1.Add a graphical user interface (GUI) for ease of use.
 2.Implement user authentication for added security.
 3.Use a secure database instead of a text file for password storage.
