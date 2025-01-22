@@ -48,18 +48,24 @@ Stores encrypted passwords in the format accountName:encryptedPassword.
 - **Launch the application:**
 The program starts with a menu offering the following options:
 
-Add a new password
+   Add a new password
 
-Retrieve a password
+   Retrieve a password
 
-Delete a password
+   Delete a password
 
-Show all accounts
+   Show all accounts
 
-Exit
+   Exit
 
 Follow prompts to add, retrieve, delete, or view accounts.
 Passwords are stored encrypted in passwords.txt and decrypted only when retrieve
 
 ### Example
 #### Adding a Password
+   ```bash
+   Enter account name: google
+   Enter password: mysecurepassword
+   Password saved successfully!
+   ```
+
